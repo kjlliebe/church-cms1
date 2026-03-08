@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sermons",
+  "info": {
+    "singularName": "sermon",
+    "pluralName": "sermons",
+    "displayName": "설교게시판"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "preacher": {
+      "type": "string"
+    },
+    "sermon_date": {
+      "type": "date"
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bible_verse": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

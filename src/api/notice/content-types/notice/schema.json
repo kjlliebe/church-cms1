@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notices",
+  "info": {
+    "singularName": "notice",
+    "pluralName": "notices",
+    "displayName": "공지사항"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "author": {
+      "type": "string"
+    },
+    "is_important": {
+      "type": "boolean"
+    },
+    "published_date": {
+      "type": "date"
+    }
+  }
+}

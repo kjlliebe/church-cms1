@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worships",
+  "info": {
+    "singularName": "worship",
+    "pluralName": "worships",
+    "displayName": "Worship (예배 안내) "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "worship_type": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}
